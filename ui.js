@@ -78,7 +78,7 @@ function renderLoop() { // render loop for canvas
     for (var i = 0; i < pageObjects.length; i++) { // iterates through page objects
         var cO = pageObjects[i]; // shortens variable name
         ctx.strokeRect(cO.x, cO.y, cO.width, cO.height); // draws page object outline
-        ctx.fillText(cO.text, cO.x + 2, cO.y + 20); // draws page object text
+        ctx.fillText(cO.text, cO.x + cO.width / 2 - 10, cO.y + cO.height / 2 - 5); // draws page object text
     }
     window.requestAnimationFrame(renderLoop); // calls this function again
 }
