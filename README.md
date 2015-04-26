@@ -14,4 +14,4 @@ This is a HTML5 canvas UI test. It simply renders page objects from an array, `p
 
 This is just an experiment, and is quite impractical. Mess with it if you want. Improve it.
 
-View it [here](http://jackdalton.co/canvas-ui).
+View it [here](http://jackdalton.github.io/canvas-ui).
