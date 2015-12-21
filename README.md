@@ -1,4 +1,6 @@
 # canvas-ui
+
+[![Join the chat at https://gitter.im/jackdalton/canvas-ui](https://badges.gitter.im/jackdalton/canvas-ui.svg)](https://gitter.im/jackdalton/canvas-ui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is a HTML5 canvas UI test. It simply renders page objects from an array, `pageObjects`, which contains objects with the following structure:
 
     {
